@@ -1,0 +1,400 @@
+pre/post;project;commit;author;time;message
+pre;delftdata_valentine;5d3f4b974328b9f67615b784ad7029da5dcc4515;kPsarakis <kpsarakis94@gmail.com>;1634591350;"add support for python 3.10
+"
+pre;delftdata_valentine;d8ab8e4947f69e04049a6c053bc01bc489fc8276;kPsarakis <kpsarakis94@gmail.com>;1634591386;"prepare for new release that supports python 3.10
+"
+pre;delftdata_valentine;c5cfe9c139258639a80a38e1c12293136d382f48;Kyriakos Psarakis <kpsarakis94@gmail.com>;1634593109;"Add support for python 3.10 (#35)
+
+* replace the scipy dependency for the quantile function with the builtin one
+
+* add support for python 3.10
+
+* prepare for new release"
+pre;delftdata_valentine;1eaba9b23cdef5ce158695b3267c70f60a56f879;kPsarakis <kpsarakis94@gmail.com>;1634677072;"remove walrus operator
+"
+pre;delftdata_valentine;b49ba4ca7af270192e541393018ffc30b430be90;kPsarakis <kpsarakis94@gmail.com>;1634677152;"prepare for new release with 3.7 support
+"
+pre;delftdata_valentine;6be36cd4c99707ed045441ab4585a983f5314807;kPsarakis <kpsarakis94@gmail.com>;1634677936;"revert the support for python 3.10 to support 3.7
+"
+pre;delftdata_valentine;b015de1890f19e57b2018733d643a1785869d87e;Kyriakos Psarakis <kpsarakis94@gmail.com>;1634678206;"Support Python 3.7 while reverting 3.10 (#37)
+
+* remove walrus operator
+
+* prepare for the new release with 3.7 support
+
+* revert the support for python 3.10 to support 3.7"
+pre;delftdata_valentine;1031db4b884c49841ca317762080d8f522878f24;Kyriakos Psarakis <kpsarakis94@gmail.com>;1634678801;[ci skip] update readme with the Coma java requirement
+pre;delftdata_valentine;f970409c6491c9a7f3882e3d9a56096477204b70;kPsarakis <kpsarakis94@gmail.com>;1634736501;"fix #38 while adding new test cases to catch this error in the future
+"
+pre;delftdata_valentine;3be3fcbe91f1a838f21399eeb5e6ec97f4b94e76;kPsarakis <kpsarakis94@gmail.com>;1637057124;"prepare for the python 3.10 release
+"
+post;delftdata_valentine;6b315c67d793912836b0112e04c11f0ced650ecb;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1655865692;"Bump numpy from 1.21.4 to 1.22.0
+
+Bumps [numpy](https://github.com/numpy/numpy) from 1.21.4 to 1.22.0.
+- [Release notes](https://github.com/numpy/numpy/releases)
+- [Changelog](https://github.com/numpy/numpy/blob/main/doc/HOWTO_RELEASE.rst)
+- [Commits](https://github.com/numpy/numpy/compare/v1.21.4...v1.22.0)
+
+---
+updated-dependencies:
+- dependency-name: numpy
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+post;delftdata_valentine;3609700e4bcd0714ff78f36f006b8ab41b34c608;Asterios Katsifodimos <asteriosk@gmail.com>;1663765874;Create README.md
+post;delftdata_valentine;bf6da229c686534dab77c30bd020598eb2f0e5ba;Asterios Katsifodimos <asteriosk@gmail.com>;1663766095;Prettier printing of statistics
+post;delftdata_valentine;51c08ac6e0be81c49afefc7f6d99224605e6896e;Asterios Katsifodimos <asteriosk@gmail.com>;1663768308;Better printing of results.
+post;delftdata_valentine;8e6bc2bd727774795bd065d8f5d51909b928be63;kPsarakis <kpsarakis94@gmail.com>;1663768747;"prepare for python 3.11 and update dependencies
+"
+post;delftdata_valentine;18686ab1cae240cdc7cf0dbdc4ffddab7cd08100;Kyriakos Psarakis <kpsarakis94@gmail.com>;1663768985;update 3.11 CI name
+post;delftdata_valentine;48ba266cb63b7d854e8c464e09cc58f3e6dc0b92;Kyriakos Psarakis <kpsarakis94@gmail.com>;1663769122;start builds for Py 3.11
+post;delftdata_valentine;17d2aef9668fc57e7e28c471e4c475896014f6ea;Kyriakos Psarakis <kpsarakis94@gmail.com>;1663769423;[CI SKIP] fix nested lists on the readme
+post;delftdata_valentine;fcdfae35dd5830cb982c1b077f6c164a6feabba2;kPsarakis <kpsarakis94@gmail.com>;1663769621;"remove 3.11 builds for now, pyemd does not support it yet
+"
+post;delftdata_valentine;edf82343918c66ff3b4341c675f242f6a0df0c25;Asterios Katsifodimos <asteriosk@gmail.com>;1663789758;Update README.md
+pre;darioizzo_geodesynets;6c9de19128d2f033da1cab311f66335d7e5ed94a;Pablo Gómez <contact@pablo-gomez.net>;1638255798;"Working on torchquad integration
+"
+pre;darioizzo_geodesynets;6d145ae4fb4c01b579f963e7231b3256f1a1d8ea;Dario Izzo <dario.izzo@gmail.com>;1638296319;"masconCUBEresults
+"
+pre;darioizzo_geodesynets;85744fe8d4b0de7918c830c6ba59aaf747f06b17;Dario Izzo <dario.izzo@gmail.com>;1638447752;"validation results on masconcubes and geodesyNet
+"
+pre;darioizzo_geodesynets;d67522122ba8189b784d6e06e0f57c8f76d6baf3;Dario Izzo <dario.izzo@gmail.com>;1648654983;Update install.sh
+pre;darioizzo_geodesynets;850cbfdf5f617bfc01c6b96ddf3312a01f6bbf16;Dario Izzo <dario.izzo@gmail.com>;1648655151;Update README.md
+pre;darioizzo_geodesynets;d826b1475024febdf272df405a307cd797ba80fe;Dario Izzo <dario.izzo@gmail.com>;1648712395;"rename to lowercase
+"
+pre;darioizzo_geodesynets;c9ffde2e1a63aecbaec38f0243eaf046f302ec75;Dario Izzo <dario.izzo@gmail.com>;1648712405;"Merge branch 'master' of github.com:darioizzo/geodesyNets
+"
+pre;darioizzo_geodesynets;25bdcdc2531e092394b0c93b558547e9ba8d868c;Dario Izzo <dario.izzo@gmail.com>;1649492895;"cleanup and synch after rebuttal and substantial additional work
+"
+pre;darioizzo_geodesynets;2bb7ceac55a7a17f2972d0f3fcab3cf854bfcc3e;Pablo Gómez <pablo.gomez@gmx.de>;1668075321;"Update 1 - Direct training.ipynb
+
+Fixed string"
+pre;darioizzo_geodesynets;7dde1b7c768161fb4054b593a0450a7b76b1c5db;Dario Izzo <dario.izzo@gmail.com>;1675864813;"Merge pull request #106 from darioizzo/gomezzz-patch-1
+
+Update 1 - Direct training.ipynb"
+post;darioizzo_geodesynets;33b25a9541ce2d52663b14714de68af70717ac7e;Pietro Fanti <pietro.fanti@esa.int>;1733738105;"fix: pyvista night theme does not exist in new version
+"
+post;darioizzo_geodesynets;d85a860a28677594cb4d32b616bd7a432bfd13a5;Pietro Fanti <pietro.fanti@esa.int>;1733738243;"fix: pd.DataFrame.append does not exists anymore in new pandas version
+"
+post;darioizzo_geodesynets;976b1bf71b4ee9b17279ebd1ea3347986400a755;Pietro Fanti <pietro.fanti@esa.int>;1733738325;"feat: quadratic layer implementation
+"
+post;darioizzo_geodesynets;b4b8603dc94a5a5eb45e9fa1d540c6556b3f74cb;Pietro Fanti <pietro.fanti@esa.int>;1733738483;"feat: cli script for training
+"
+post;darioizzo_geodesynets;6db054a0fad7033dd4a58f0b42bb95f917e8330f;Pietro Fanti <pietro.fanti@esa.int>;1733738557;"feat: add logs directory
+"
+post;darioizzo_geodesynets;bb0c2c0cd714851653baf87e2147240e50fc0a53;Pietro Fanti <pietro.fanti@esa.int>;1733741826;"feat: add notebooks
+"
+post;darioizzo_geodesynets;d4eb846745c3506c89a94178ab595ba445d426ed;Pietro Fanti <pietro.fanti@esa.int>;1733741999;"feat: update notebook 8
+"
+post;darioizzo_geodesynets;c22738fd48934ef301384165a177e0216ede6190;Dario Izzo <dario.izzo@gmail.com>;1733996521;"Merge pull request #115 from darioizzo/feat/quadratic_layers
+
+Add quadratic layers"
+post;darioizzo_geodesynets;cde818b81d14f175e547056bf4a5fbdc038d77d4;Pietro Fanti <pietro.fanti@esa.int>;1738067879;"fix: change default epochs in the notebook and update readme
+"
+post;darioizzo_geodesynets;94176c5aca4762f1bdd2d9c9338336f912259d38;Pietro Fanti <pietro.fanti@esa.int>;1738068150;"chore: typo
+"
+pre;antonio-jp_dd_functions;cb1265efcfe2eed270ed8ec7a810bd42bf2d0f39;Antonio Jimenez-Pastor <kethewal@gmail.com>;1660727824;"Updated links to the binder link
+"
+pre;antonio-jp_dd_functions;de14903c63641d2b58af6f6cb40416750c4c8876;Antonio Jimenez-Pastor <kethewal@gmail.com>;1660728506;"Fixing small typo in LegendreP printing (syntax errors in binder?)
+"
+pre;antonio-jp_dd_functions;4a4d416d17fb1af049158dc79101783a809802a7;Antonio Jimenez-Pastor <kethewal@gmail.com>;1660728726;"Adding dependency to this self package
+"
+pre;antonio-jp_dd_functions;3f9963f6c7ca6b9e09fc6bdbb2ece50384ddc4d1;Antonio Jimenez-Pastor <kethewal@gmail.com>;1660734188;"Fixing some error with formated strings
+"
+pre;antonio-jp_dd_functions;9531dd393842a0ede7222ce8dd78e8484125057a;Antonio Jimenez-Pastor <kethewal@gmail.com>;1660734417;"Fixed the use of lru_cache without parameters
+"
+pre;antonio-jp_dd_functions;6b22795c7727a1414c4722361c3b113fc6500c79;Antonio Jimenez-Pastor <kethewal@gmail.com>;1661013293;"Notebook with method for guessing DD-finite
+
+Added a new option for providing initial values.
+"
+pre;antonio-jp_dd_functions;b807fbff817869627ca7ec55e1c802cf71fb84c5;Antonio Jimenez-Pastor <kethewal@gmail.com>;1661437552;"Improved documentation for Airy and DAlgebraic
+"
+pre;antonio-jp_dd_functions;ccd0bd38f4c356cc139278b4bf290adce628a8ba;Antonio Jimenez-Pastor <kethewal@gmail.com>;1661437607;"Updated version number
+"
+pre;antonio-jp_dd_functions;1c055bfcc478f642d045389b2b9b84e46eebb39e;Frédéric Chapoton <chapoton@unistra.fr>;1664288810;"clean the file serializable
+"
+pre;antonio-jp_dd_functions;c455ca668f0069b0ea90c5b7665c6ebcfebe7cc5;Frédéric Chapoton <chapoton@unistra.fr>;1664288922;"details
+"
+post;antonio-jp_dd_functions;bc75190402eee5305cff05f12bb549fb043f7a3c;Matthias Koeppe <mkoeppe@math.ucdavis.edu>;1735867582;"sage -fiximports ajpastor
+"
+post;antonio-jp_dd_functions;b13a401fe7b7eecbc8db73cbc7a1a8309da34cdc;Matthias Köppe <mkoeppe@math.ucdavis.edu>;1735867689;"Merge bc75190402eee5305cff05f12bb549fb043f7a3c into fac6254d47dc32a27f800f094ec5db2e1025f073
+"
+post;antonio-jp_dd_functions;4a978f35f820520dd8eb30b69e294d474a8cab75;Antonio Jimenez-Pastor <kethewal@gmail.com>;1749032108;"♻️  Removed the use of ""is_PolynomialRing"" in the repository
+"
+post;antonio-jp_dd_functions;4fbc659ba6f7d4141c367ff37386c61057313b53;Antonio Jimenez-Pastor <kethewal@gmail.com>;1749032516;"♻️  Removed the use of ""is_MPolynomialRing"" in the repository
+"
+post;antonio-jp_dd_functions;fd18d0a30bc0f249d6f8dcd1b6a90e4602d1450d;Antonio Jimenez-Pastor <kethewal@gmail.com>;1749032955;"♻️  Removed the use of ""is_Matrix"" and ""is_Vector"" in the repository
+"
+post;antonio-jp_dd_functions;f50c99b32cb778fa7276bb71686ec6ec4a1965d1;Antonio Jimenez-Pastor <kethewal@gmail.com>;1749033194;"♻️  Removed the use of ""is_FractionField"" in the repository
+"
+post;antonio-jp_dd_functions;6a721672006dec4a7083c30a0228b78876a409e2;Antonio Jimenez-Pastor <kethewal@gmail.com>;1749033957;"♻️  Fixed openings of documentation (always with ""r"")
+"
+post;antonio-jp_dd_functions;c3000bfc5d940bd20a927bad8ad71ef46bf1add0;Antonio Jimenez-Pastor <kethewal@gmail.com>;1749033973;"♻️  Updated demo to avoid Warnings
+"
+post;antonio-jp_dd_functions;d2c976613adb3aa57d43bf9d04b61fb7c879a749;Antonio Jimenez-Pastor <kethewal@gmail.com>;1749034840;"♻️  Prepared demo for presentation
+"
+post;antonio-jp_dd_functions;ba057c4c844dadc7ad30bdfaefa7b3f8690f369c;Antonio Jimenez-Pastor <kethewal@gmail.com>;1749452299;"Merge branch 'guessing' into develop
+"
+pre;anybotics_elevation_mapping;3f75435d09415a166851f039035f5b2df2d338e7;Javier De Velasco Oriol <jvelasco@anybotics.com>;1720185783;"Merge remote-tracking branch 'origin/release-24.07'
+
+GitOrigin-RevId: 4659135876c455d1a51007d61976fa596c7df57d
+"
+pre;anybotics_elevation_mapping;611c8ea11372cb274721926a2db99d28351c6210;Casey Jones <github@doctorcolossus.e4ward.com>;1720560959;"Merge 1aa3b1ad245c7d4d89745e3804764f3fa95f1057 into 3f75435d09415a166851f039035f5b2df2d338e7
+"
+pre;anybotics_elevation_mapping;d32075b7dc8487da16af617af3c457bc9d53e056;Kirill Zaitsev <44346535+kirilllzaitsev@users.noreply.github.com>;1721128932;"Merge dcc195c83e8ef3f10d840a92c255f9b35e96f2c9 into 3f75435d09415a166851f039035f5b2df2d338e7
+"
+pre;anybotics_elevation_mapping;b0f2415fee49aa318a14a7de96bd645a5e2af32a;Samuel Bachmann <samuel.bachmann@gmail.com>;1724434840;"Merge branch 'release-24.09'
+
+GitOrigin-RevId: 28333e455e07996c87eb821347d0c969f4778675
+"
+pre;anybotics_elevation_mapping;6a79be1d95796a52bd38353b5551aaaeda280b03;Yoshua Nava <ynava@anybotics.com>;1726149094;"Merge branch 'refactor/point_cloud_io/deprecate_pkg' into 'master'
+
+[point_cloud_io] Deprecate package
+
+Closes #UNKNOWN
+
+GitOrigin-RevId: dc0f8720fe143b81015911347dfbe00b671d7891
+"
+pre;anybotics_elevation_mapping;b134190012318c9f77c72a2d84a26cc6da6d0f1c;Jonas Junger <jjunger@anybotics.com>;1729254584;"Merge branch 'release-24.11'
+
+GitOrigin-RevId: f69bd332ed6125a529d3818f372d0bddcbdd9942
+"
+pre;anybotics_elevation_mapping;5f47406eca7e2f1941e16e1b68858c5563496ee3;Magnusgaertner <magnusgaertner@gmail.com>;1730717153;"Update README.md
+
+Added disclaimer that maintenance is discontinued."
+pre;anybotics_elevation_mapping;f4b082c64a3e660980da53b33c7936a8f2a2ea22;Remo Diethelm <rdiethelm@anybotics.com>;1730717713;"Merge pull request #269 from ANYbotics/Magnusgaertner-maintenance-discontinued
+
+Discontinue Elevation Mapping Maintenance. "
+pre;anybotics_elevation_mapping;e46bb8b47ff19f5e49d5144332709fcf442fea82;Casey Jones <github@doctorcolossus.e4ward.com>;1732827067;"Merge 1aa3b1ad245c7d4d89745e3804764f3fa95f1057 into f4b082c64a3e660980da53b33c7936a8f2a2ea22
+"
+pre;anybotics_elevation_mapping;6d2fae0c3ce4e4d0a05316fc11af55ede751f440;Kirill Zaitsev <44346535+kirilllzaitsev@users.noreply.github.com>;1732827067;"Merge dcc195c83e8ef3f10d840a92c255f9b35e96f2c9 into f4b082c64a3e660980da53b33c7936a8f2a2ea22
+"
+post;anybotics_elevation_mapping;8071ca0a87bfef7feec5ea0721d4e7b8a2204d80;kunj1302 <kgolwala@umd.edu>;1753932674;"Updated README.MD to use melodic-devel branch of grid_map repo
+"
+post;anybotics_elevation_mapping;91ea236f1f0f888e40bdba800bf8c65a03f5adce;Kunj Golwala <kgolwala@umd.edu>;1753933410;"Merge 8071ca0a87bfef7feec5ea0721d4e7b8a2204d80 into f4b082c64a3e660980da53b33c7936a8f2a2ea22
+"
+pre;singmann_afex;673057b49030124e76d8d0786de60f1613056688;Henrik Singmann <singmann@gmail.com>;1681285864;"reactivate rstanarm on CI
+"
+pre;singmann_afex;c3c1a2fec1839ec087f281bf96531b075f4eab73;Henrik Singmann <singmann@gmail.com>;1681302745;"alternative rstanarm afex_plot test
+"
+pre;singmann_afex;2ffbb61fcb4185de367123bacdddd3f4453fc449;Henrik Singmann <singmann@gmail.com>;1681304380;"updated tests
+"
+pre;singmann_afex;efaf70192627901efc056e1757c559381b4c23a6;Henrik Singmann <singmann@gmail.com>;1681373303;"removed support for deprecated ANOVA functions
+"
+pre;singmann_afex;0e7c08817d229efa4a9f75bbbd6f0944f81def0f;Henrik Singmann <singmann@gmail.com>;1681750407;"updated broken EMS link
+"
+pre;singmann_afex;9089ebeca4da218af8ba3febd9471f360adc3be2;Henrik Singmann <singmann@gmail.com>;1681763618;"should be correct link now
+"
+pre;singmann_afex;1276d486ff32f9a40e7be0550ca5a4052fba1692;mariusbarth <marius.barth@uni-koeln.de>;1684351985;"throw an informative error message if no bar term was provided in a call to aov_4()
+"
+pre;singmann_afex;038c5206734d8c26a5933928108fb2d4dd8596ab;Henrik Singmann <singmann@users.noreply.github.com>;1684782886;"Merge pull request #120 from mariusbarth/aov_4-improvements
+
+Thrown an informative error message if no random-effects terms is specified in calls to aov_4"
+pre;singmann_afex;ca6c733b83a17352302e15265bdce1f4e02e3f5d;Henrik Singmann <singmann@gmail.com>;1684829679;"use newer checks
+"
+pre;singmann_afex;b6d844d20a0b2807b5363ee35f4c0c2ac18d63b9;Henrik Singmann <singmann@gmail.com>;1684830231;"oops
+"
+post;singmann_afex;59fe821fa8a7817e3adb6aa9e68fda8297d5daa9;Teun van den Brand <tahvdbrand@gmail.com>;1705409340;"don't construct nameless legends
+"
+post;singmann_afex;e9105b38ce4a90a1e0ed35d5d15967b7ec02befa;Teun van den Brand <tahvdbrand@gmail.com>;1705409362;"test legend properties in new guides
+"
+post;singmann_afex;1e3ee8d438795ad60129735ae09cc8458864c7dc;Henrik Singmann <singmann@users.noreply.github.com>;1706103792;"Merge pull request #124 from teunbrand/ggplot2_3.5.0
+
+(incomplete) update for upcoming ggplot2 version"
+post;singmann_afex;bde0a72c33c3b1973ddd1f2e75f6e3eeeda76425;Henrik Singmann <singmann@gmail.com>;1708858421;"preparation for new ggplot2 version
+"
+post;singmann_afex;e3f5d6b729136b7a03a8d1835c36c93242f717e0;Henrik Singmann <singmann@gmail.com>;1708869782;"CRAN submission
+"
+post;singmann_afex;cb8289e031335036364f2791c4e81d9b37fe0af3;Henrik Singmann <singmann@gmail.com>;1712508860;"added first_plot arg to afex_plot()
+"
+post;singmann_afex;ce19c2626f9765d12c9b6998b1dbf9766efaf816;Henrik Singmann <singmann@gmail.com>;1712514075;"deactivate seemingly superfluous merMod check to address #87
+"
+post;singmann_afex;40988d06e2ebd08a429c5c6743ff7518e659dd15;Henrik Singmann <singmann@gmail.com>;1712517519;"hopefully fixed image comparisons
+"
+post;singmann_afex;70c4a4ccc9fb2647be29eb775030b1fc97452ba5;Henrik Singmann <singmann@gmail.com>;1712653374;"added fix for revdepcheck
+"
+post;singmann_afex;300b5f01338d89f4f392a3e5bfb0bf2f0e0565b9;Henrik Singmann <singmann@gmail.com>;1719394996;"updated TMB binary object
+"
+pre;opensafely_antibody-and-antiviral-deployment;6f5e4d32e9153feab3805c89b41938898b3bb60d;bangzheng2217 <b.zheng17@imperial.ac.uk>;1674175724;"Create data_preparation.do
+"
+pre;opensafely_antibody-and-antiviral-deployment;08406d69d73e80c3956fd8dc3842a2d05db05006;bangzheng2217 <b.zheng17@imperial.ac.uk>;1674175749;"Update data_preparation.do
+"
+pre;opensafely_antibody-and-antiviral-deployment;c95f0c14cb4f2f0f7725537136e801f6fe749804;bangzheng2217 <b.zheng17@imperial.ac.uk>;1674177308;"Update data_preparation.do
+"
+pre;opensafely_antibody-and-antiviral-deployment;6275e0b4ccc5d014d3731b98bb7d4932d6b9af97;bangzheng2217 <b.zheng17@imperial.ac.uk>;1674184848;"Revert ""Update data_preparation.do""
+
+This reverts commit c95f0c14cb4f2f0f7725537136e801f6fe749804.
+"
+pre;opensafely_antibody-and-antiviral-deployment;7e89159484761d0bf71dcb3863243b92a659f928;bangzheng2217 <b.zheng17@imperial.ac.uk>;1674184856;"Revert ""Update data_preparation.do""
+
+This reverts commit 08406d69d73e80c3956fd8dc3842a2d05db05006.
+"
+pre;opensafely_antibody-and-antiviral-deployment;179ae16356b2ebae1165f3f4bd2a088aa69b2648;bangzheng2217 <b.zheng17@imperial.ac.uk>;1674184863;"Revert ""Create data_preparation.do""
+
+This reverts commit 6f5e4d32e9153feab3805c89b41938898b3bb60d.
+"
+pre;opensafely_antibody-and-antiviral-deployment;23eba55fe2f096aec0064940db62bae57de7a58c;bangzheng2217 <b.zheng17@imperial.ac.uk>;1674184867;"Revert ""Update project.yaml""
+
+This reverts commit 5755154491b5138bc7620e41d897eaff8d72e9e6.
+"
+pre;opensafely_antibody-and-antiviral-deployment;54577e40be8bd4aed92fecb656fe8c6bf28051e1;Linda Nab <linda.nab@thedatalab.org>;1675088964;"update report 190123
+"
+pre;opensafely_antibody-and-antiviral-deployment;5cd55dc77f5e6e865ac73571d36549d66b0259eb;Linda Nab <linda.nab@thedatalab.org>;1675089658;"add link to published paper
+"
+pre;opensafely_antibody-and-antiviral-deployment;319c3519f41dd880f70efe2406656440fe5a4b20;Linda Nab <linda.nab@thedatalab.org>;1675161332;"add action describing outcomes
+"
+post;opensafely_antibody-and-antiviral-deployment;325e059239b1187992beb6cbd879e0e6c50f6d00;rose-higgins <95700645+rose-higgins@users.noreply.github.com>;1707818340;"Codelists update
+"
+post;opensafely_antibody-and-antiviral-deployment;6136fa43cd923a38e5fec06ec5ca966700c3d89a;Rose Higgins <95700645+rose-higgins@users.noreply.github.com>;1707818445;"Merge pull request #60 from opensafely:February_test_run
+
+Codelists update"
+post;opensafely_antibody-and-antiviral-deployment;6c42708d653513ddf5147cf4875edf9090238ddc;rose-higgins <95700645+rose-higgins@users.noreply.github.com>;1707919273;"update_codelists
+"
+post;opensafely_antibody-and-antiviral-deployment;865f74070e1188e0c2c6e40305d16acff9f9a553;Rose Higgins <95700645+rose-higgins@users.noreply.github.com>;1707919406;"Merge pull request #61 from opensafely:feb_24_update_codelist_2
+
+update_codelists"
+post;opensafely_antibody-and-antiviral-deployment;64e3201bc3e7a781b4cecdb9914e75cf8a8f05aa;rose-higgins <95700645+rose-higgins@users.noreply.github.com>;1709220543;"Update RMarkdown for report with updated data
+"
+post;opensafely_antibody-and-antiviral-deployment;425606cef189057e4e8646e9b4308f4c604edbf9;Millie Green <acagreen17@gmail.com>;1709300722;"fix figures being added twice
+"
+post;opensafely_antibody-and-antiviral-deployment;d7dd8f1692a0819a5be95a9beb3268d37bc5c396;Rose Higgins <95700645+rose-higgins@users.noreply.github.com>;1709655046;"Merge pull request #62 from opensafely/test_report_generation
+
+Update RMarkdown for report with updated data"
+post;opensafely_antibody-and-antiviral-deployment;d6a88c8f3b3d90e761fef572635979d600f9b164;rose-higgins <95700645+rose-higgins@users.noreply.github.com>;1710949382;"Add long COVID codelists
+"
+post;opensafely_antibody-and-antiviral-deployment;c76581558923a5df2f21c4b8f3323643a6f6fb1e;rose-higgins <95700645+rose-higgins@users.noreply.github.com>;1710949406;"Add long COVID to study definition
+"
+post;opensafely_antibody-and-antiviral-deployment;c167f452a7d8847b348b83ea8e9e7606debe933b;rose-higgins <95700645+rose-higgins@users.noreply.github.com>;1710949439;"Add long COVID to intermediate data processing steps
+"
+pre;sebmart_taxisimulation;1f83b221344aa94ba89dae37b1648dbe6484baf5;Sebastien Martin <semartin@mit.edu>;1477845689;"removed old typo
+"
+pre;sebmart_taxisimulation;64b3413628eb12d57fd68fc9bf5c32f2991c4e12;Sebastien Martin <semartin@mit.edu>;1477867916;"flow online solver
+"
+pre;sebmart_taxisimulation;0e80f7e55c11c2098a785ed5c950f76c041e8b63;Sebastien Martin <semartin@mit.edu>;1477925698;"corrected double edge removal bug
+"
+pre;sebmart_taxisimulation;58eca1800071beb50868e4f8ca5843982667db5a;Sebastien Martin <semartin@mit.edu>;1477950405;"backbone method use last flow as first generation step
+"
+pre;sebmart_taxisimulation;7b1c51219e7781f9d934f8f620e17a45fc8078f8;Sebastien Martin <semartin@mit.edu>;1478003399;"removed typo for iteration time:
+"
+pre;sebmart_taxisimulation;aae43bec8788b506f45b01519925a4d388884f2d;Sebastien Martin <92sebastien@gmail.com>;1490035514;"added require file
+"
+pre;sebmart_taxisimulation;0c3fdf302d20970debc5de1adc7846ee5c7e9617;Sebastien Martin <92sebastien@gmail.com>;1516729590;"Merge branch 'master' into benchmarks
+"
+pre;sebmart_taxisimulation;97a5b2fad874e1b9a0d231517be29454511ff8c7;Sebastien Martin <92sebastien@gmail.com>;1516729947;"added GNU license
+"
+pre;sebmart_taxisimulation;ce8b202d354f706c136f9a5ddff717487a9a11f0;Sebastien Martin <92sebastien@gmail.com>;1516730019;"adding license (for real this time)
+"
+pre;sebmart_taxisimulation;aad639144db01fd2bea44c8ffacf27fe0f4bb4e8;Sebastien Martin <92sebastien@gmail.com>;1516731924;"edited README
+"
+post;sebmart_taxisimulation;c27104311bf7730059273e738e7a3c592077a1ed;OwOIamNoob <21020205@vnu.edu.vn>;1730980621;"fix indentation, alternative for IntSet, pending independent solver
+"
+post;sebmart_taxisimulation;8fda10c24ce11ac9c38c9d2284a51b8c5d6d3595;OwOIamNoob <21020205@vnu.edu.vn>;1731053664;"Unnecessary line of code
+"
+post;sebmart_taxisimulation;91e226f235c8293e53f71763f5c7000581f8244b;OwOIamNoob <21020205@vnu.edu.vn>;1731318295;"Fix Gurobi Formulation
+"
+post;sebmart_taxisimulation;7f00fac1f13237d5550dc2048ddf875e4b0ae0ab;OwOIamNoob <21020205@vnu.edu.vn>;1731323581;"Line, Circle Shape and Iterator update
+"
+post;sebmart_taxisimulation;e7354517d38714c5a0bc0b3991341ac5349567a0;hoangvanphi <hoangvanphi2004@gmail.com>;1731324189;"fix: RenderWindow
+"
+post;sebmart_taxisimulation;efbee2fab51f4a92a3f970eb749c303ee35cdf82;OwOIamNoob <21020205@vnu.edu.vn>;1731324439;"CircleShape fixation
+"
+post;sebmart_taxisimulation;c58ab653460e96e7ad5e3394837965c1055c9cb1;OwOIamNoob <21020205@vnu.edu.vn>;1731324514;"Merge branch 'master' of https://github.com/OwOIamNoob/TaxiSimulationPotato
+"
+post;sebmart_taxisimulation;a6aa339681971228334757a7cf3f436c98dcbaaa;hoangvanphi <hoangvanphi2004@gmail.com>;1731335292;"testing
+"
+post;sebmart_taxisimulation;cf4e657b5230410743a70013b31f6285651e15c0;hoangvanphi <hoangvanphi2004@gmail.com>;1731335819;"testing
+"
+post;sebmart_taxisimulation;a08bec6a7e304773054c3f78a0664e86d5087df5;hoangvanphi <hoangvanphi2004@gmail.com>;1731336489;"testing
+"
+pre;langurmonkey_gaiasky;4115a75daba0722f1947fe9206933ab430098862;langurmonkey <me@tonisagrista.com>;1721584641;"none: bump version number and unlink console binding.
+"
+pre;langurmonkey_gaiasky;07c2c148c34246a98caeb51f8365b910b44be323;langurmonkey <me@tonisagrista.com>;1721631173;"fix: inform user of unsupported cubemap textured objects with procedural generation.
+"
+pre;langurmonkey_gaiasky;325e900dc9dda585bf3db9e9a7940d669e82547d;langurmonkey <me@tonisagrista.com>;1721647138;"docs: fix typos and spelling errors in changelog file.
+"
+pre;langurmonkey_gaiasky;7924cfa3e1827b11dd57001cf74ef84cd80c8629;langurmonkey <me@tonisagrista.com>;1721652008;"none: minor fixes.
+"
+pre;langurmonkey_gaiasky;963c5cf36ebe77c8aedb70869b59deaf1894c37a;langurmonkey <me@tonisagrista.com>;1721805521;"none: add ANSI codes to console (colors only!).
+"
+pre;langurmonkey_gaiasky;6510b8be9e0ac98451e9391ef2f0c0fbcfd51f31;langurmonkey <me@tonisagrista.com>;1721813377;"none: complete console welcome message.
+"
+pre;langurmonkey_gaiasky;4d320215014d9fb8cd004ac6a292f4859429f5b0;langurmonkey <me@tonisagrista.com>;1721822864;"none: changelog.
+"
+pre;langurmonkey_gaiasky;6624ab5bc1812a8c640e0a978be4279c0b337472;langurmonkey <me@tonisagrista.com>;1721889346;"none: saturate config description.
+"
+pre;langurmonkey_gaiasky;609b3e853bce61c7ade6f18861841e312da668c3;langurmonkey <me@tonisagrista.com>;1721891091;"feat: move console business logic to console manager entity.
+"
+pre;langurmonkey_gaiasky;a8b7d0bc65115e00303ba49370f1ff996eb444dc;langurmonkey <me@tonisagrista.com>;1721910454;"none: organise imports.
+"
+post;langurmonkey_gaiasky;58fafb986d13ee67757e720269d49e950cab0e88;langurmonkey <me@tonisagrista.com>;1725353445;"docs: add architectures to download table.
+"
+post;langurmonkey_gaiasky;3d19f01343804d4303738713983bb2cb1cfe431e;langurmonkey <me@tonisagrista.com>;1725534307;"none: started refactoring internal frame buffers and ping-pong buffer so that post-processing effect order does not matter.
+"
+post;langurmonkey_gaiasky;bdda330d8d8cd91ad1858e80ac0f49605d15253b;langurmonkey <me@tonisagrista.com>;1725543704;"feat: separate scene from other elements (labels, lines, etc.) to be able to apply different post-processing effects to each.
+"
+post;langurmonkey_gaiasky;b1893315e55e840e92b58fa4a8e9b6ed9944d99a;langurmonkey <me@tonisagrista.com>;1725544317;"none: fix atmosphere occlusion.
+"
+post;langurmonkey_gaiasky;a4d9eb904f2915c5722ac1b9e9d0cc0979a4a1c6;langurmonkey <me@tonisagrista.com>;1725877513;"feat: add location type attribute to location objects. This attribute is used to categorize locations by groups in the individual visibility window.
+"
+post;langurmonkey_gaiasky;95cc1260b9f903a8dd270ce8cf0574901bf0d7a4;langurmonkey <me@tonisagrista.com>;1725886691;"fix: update jetty, json and xmlrpc libraries to secure versions (the old versions contain known vulnerabilities).
+"
+post;langurmonkey_gaiasky;55a329bf4209eb30b9a474b3fa4227ae40a75219;langurmonkey <me@tonisagrista.com>;1726043362;"feat: remove 'cosmic locations' content type, move it to regular locations (requires default data pack update.).
+"
+post;langurmonkey_gaiasky;68da5a9a8507fa583d34ce3e373200bd1c28d795;langurmonkey <me@tonisagrista.com>;1726147123;"none: add suggestions to console on mismatch, add more shortcuts.
+"
+post;langurmonkey_gaiasky;3807d2d748c94fb8c18820b9d218464688f3659f;langurmonkey <me@tonisagrista.com>;1726492163;"none: good parameter treatment.
+"
+post;langurmonkey_gaiasky;2430227819642319440687ffb50d50d36dd73b63;langurmonkey <me@tonisagrista.com>;1726556484;"build: update oshi library version.
+"
+pre;jump-dev_sumofsquares.jl;5671804f6fe550ad8a144ab98c926beb39acf804;Documenter.jl <documenter@juliadocs.github.io>;1648731834;"build based on a3a63d7
+"
+pre;jump-dev_sumofsquares.jl;6443b92da0b8e4bcb4ab0d6531d8d80a29944104;Benoît Legat <benoit.legat@gmail.com>;1648737373;"Simplify hermitian examples (#250)
+
+"
+pre;jump-dev_sumofsquares.jl;441f89cec9731fc27f53cad1eee3074a2d918c4e;Documenter.jl <documenter@juliadocs.github.io>;1648738654;"build based on 6443b92
+"
+pre;jump-dev_sumofsquares.jl;b3642a68df2e7cbe0067612456c6d4775d166527;Benoît Legat <benoit.legat@gmail.com>;1648755930;"Fixes
+"
+pre;jump-dev_sumofsquares.jl;03aaeadce6cf5b5111fd313e78d96a953b77194b;Benoît Legat <benoit.legat@gmail.com>;1648756131;"Fix
+"
+pre;jump-dev_sumofsquares.jl;17c25811c7b52a3fab243ce790c10b26a7ef0b93;Benoît Legat <benoit.legat@gmail.com>;1648847742;"Fix StackOverflow
+"
+pre;jump-dev_sumofsquares.jl;9f5a5484c6146fd2c5b50802c230ab18c7a79fc6;Documenter.jl <documenter@juliadocs.github.io>;1648848879;"build based on 0e4e4c4
+"
+pre;jump-dev_sumofsquares.jl;a4e1a6ac8853bb3df3e46e33e6cce658c1c6df12;Benoît Legat <benoit.legat@gmail.com>;1648861864;"Add example on using TypedPolynomials (#242)
+
+* Add example on using TypedPolynomials
+
+* Fixes
+
+* Fix
+
+* Fix StackOverflow"
+pre;jump-dev_sumofsquares.jl;393e2fa1093109efdb4dce0c1271692996b7ac6f;Benoît Legat <benoit.legat@gmail.com>;1648862006;"Update SemialgebraicSets to v0.3
+"
+pre;jump-dev_sumofsquares.jl;8ef85c3ef01c58610472f54612aebad6631626d0;Documenter.jl <documenter@juliadocs.github.io>;1648862996;"build based on a4e1a6a
+"
+post;jump-dev_sumofsquares.jl;d01c1a230f5446c2fc543389e80719cf8741a8f9;Zdeněk Hurák <hurak@fel.cvut.cz>;1660207581;"Two minor corrections in the docs.
+"
+post;jump-dev_sumofsquares.jl;478288bf66d0e660bc565601ca1395853acd9da1;Zdeněk Hurák <hurak@fel.cvut.cz>;1660298381;"Two minor corrections in the docs. (#254)
+
+"
+post;jump-dev_sumofsquares.jl;456ff757131f50eb1c8a989bcdd9dd8148f3162d;Documenter.jl <documenter@juliadocs.github.io>;1660299478;"build based on 478288b
+"
+post;jump-dev_sumofsquares.jl;47fbe4bccdb8f5466584c444c8406e45b11e259b;Benoît Legat <benoit.legat@gmail.com>;1661011760;"Add obstacles tutorial
+"
+post;jump-dev_sumofsquares.jl;1bd2facd975d268e835e7b35e01b387e64019f2b;Benoît Legat <benoit.legat@gmail.com>;1663688058;"Add sign symmetric tutorial
+"
+post;jump-dev_sumofsquares.jl;ef07bdd7673f0b533a65c994a50f565a1fe05ea9;Benoît Legat <benoit.legat@gmail.com>;1663700327;Exclude tests
+post;jump-dev_sumofsquares.jl;30510321ae1adcaea711fd409c47f947249e2be0;Documenter.jl <documenter@juliadocs.github.io>;1663701904;"build based on 7aed0a9
+"
+post;jump-dev_sumofsquares.jl;5de6b926a5e705511fb537f2969beda5da9cba86;Benoît Legat <benoit.legat@gmail.com>;1663709328;"Add sign symmetric tutorial (#258)
+
+* Add sign symmetric tutorial
+
+* Exclude tests"
+post;jump-dev_sumofsquares.jl;07035019d06f63c20d4ed622eff75559f17bbfa2;Documenter.jl <documenter@juliadocs.github.io>;1663710746;"build based on 5de6b92
+"
+post;jump-dev_sumofsquares.jl;5f8f293ba3fc86661f22a01d568ac1be042a9b3e;Benoît Legat <benoit.legat@gmail.com>;1663741894;"Fix title for Sign Symmetry tutorial
+"

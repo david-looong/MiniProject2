@@ -1,11 +1,11 @@
-project;#commits;#authors;From;To;#stars;#forks;LastGHCommitDate;LongestGapStart;LongestGapEnd;LongestGapLength;NumCommitsAfterLastGap;NumberOfGapsInTimeline;ActivityPattern
-delftdata_valentine;493;27;1561729814;1760442339;126;26;2026/07/26;2021-12;2022-05;6;146;3;steady
-darioizzo_geodesynets;368;7;1600337492;1758027483;20;5;2025/09/16;2023-03;2024-11;21;15;4;steady
-antonio-jp_dd_functions;484;12;1520505564;1749739260;4;3;2022/03/03;2022-10;2024-12;27;26;4;irregular
-anybotics_elevation_mapping;745;87;1385453472;1753933410;1.9K;507;2024/11/04;2024-12;2025-06;7;2;3;declining
-singmann_afex;711;22;1435608057;1756241804;131;30;2025/12/14;2023-06;2023-12;7;29;4;cyclical
-opensafely_antibody-and-antiviral-deployment;519;14;1641313155;1730894499;1;4;2024/02/13;2023-02;2024-01;12;41;2;declining
-sebmart_taxisimulation;588;6;1432573855;1731600175;17;11;2024/11/14;2018-02;2024-10;81;39;4;declining
-brainstorm-tools_brainstorm3;7833;122;1477005850;1762292977;487;190;2026/09/15;N/A;N/A;0;N/A;0;cyclical
-langurmonkey_gaiasky;8552;33;1418309310;1762350620;13;1;2026/09/22;2024-08;2024-08;1;643;0;steady
-jump-dev_sumofsquares.jl;2079;37;1470927779;1776253611;131;26;2026/09/21;2022-05;2022-07;3;906;2;irregular
+project;#commits;#authors;From;To;#stars;#forks;LastGHCommitDate;LongestGapStart;LongestGapEnd;LongestGapLength;NumCommitsAfterLastGap;NumberOfGapsInTimeline;ActivityPattern;BeforeThemes;AfterThemes
+delftdata_valentine;493;27;1561729814;1760442339;126;26;2026/07/26;2021-12;2022-05;6;146;3;steady;Release:Documentation updates;Release:Dependency updates
+darioizzo_geodesynets;368;7;1600337492;1758027483;20;5;2025/09/16;2023-03;2024-11;21;15;4;steady;Merging:Cleanup;Feature development:bug fixes
+antonio-jp_dd_functions;484;12;1520505564;1749739260;4;3;2022/03/03;2022-10;2024-12;27;26;4;irregular;Bug fixes:Documentation updates;Cleanup:Release
+anybotics_elevation_mapping;745;87;1385453472;1753933410;1.9K;507;2024/11/04;2024-12;2025-06;7;2;3;declining;Merging:Documentation updates;Merging:Documentation updates
+singmann_afex;711;22;1435608057;1756241804;131;30;2025/12/14;2023-06;2023-12;7;29;4;cyclical;Bug fixes:Feature development;Bug fixes:Feature development
+opensafely_antibody-and-antiviral-deployment;519;14;1641313155;1730894499;1;4;2024/02/13;2023-02;2024-01;12;41;2;declining;Documentation updates:Release;Bug fixes:Documentation updates
+sebmart_taxisimulation;588;6;1432573855;1731600175;17;11;2024/11/14;2018-02;2024-10;81;39;4;declining;Bug fixes:Documentation updates;Bug fixes:Testing
+brainstorm-tools_brainstorm3;7833;122;1477005850;1762292977;487;190;2026/09/15;N/A;N/A;0;N/A;0;cyclical;N/A;N:A
+langurmonkey_gaiasky;8552;33;1418309310;1762350620;13;1;2026/09/22;2024-08;2024-08;1;643;0;steady;Bug fixes:Feature development;Bug fixes:Feature development
+jump-dev_sumofsquares.jl;2079;37;1470927779;1776253611;131;26;2026/09/21;2022-05;2022-07;3;906;2;irregular;Bug fixes:Release;Bug fixes:Release
